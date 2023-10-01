@@ -3,6 +3,31 @@ by Rajan Selvan (& gpt4)
 -- 
 
 
+### Suggested Folder Structure
+
+```
+30-Day_Plan/
+|-- Week_1_Foundation_Assessment/
+|   |-- Self_Assessment/
+|   |-- Resource_Compilation/
+|   |-- Study_Schedule/
+|-- Week_2_Deep_Dive_Skill_Acquisition/
+|   |-- Targeted_Learning/
+|   |-- Practical_Application/
+|   |-- Peer_Review_Feedback/
+|-- Week_3_Refinement_Networking/
+|   |-- Advanced_Materials/
+|   |-- Networking/
+|   |-- Mock_Interviews_Role_Play/
+|-- Week_4_Finalization_Application/
+|   |-- Portfolio_Resume_Building/
+|   |-- Job_Applications/
+|   |-- Continuous_Learning_Followups/
+|-- Estimation_Functions/
+|-- Tips/
+```
+
+Would you like to automate the creation of this folder structure?
 ## Table of Contents
 
 1. [Week 1: Foundation Assessment](#week-1-foundation-assessment)
@@ -119,29 +144,3 @@ by Rajan Selvan (& gpt4)
 - `reflection_tips.md`: Tips for reflective practices.
 
 ---
-
-### Suggested Folder Structure
-
-```
-30-Day_Plan/
-|-- Week_1_Foundation_Assessment/
-|   |-- Self_Assessment/
-|   |-- Resource_Compilation/
-|   |-- Study_Schedule/
-|-- Week_2_Deep_Dive_Skill_Acquisition/
-|   |-- Targeted_Learning/
-|   |-- Practical_Application/
-|   |-- Peer_Review_Feedback/
-|-- Week_3_Refinement_Networking/
-|   |-- Advanced_Materials/
-|   |-- Networking/
-|   |-- Mock_Interviews_Role_Play/
-|-- Week_4_Finalization_Application/
-|   |-- Portfolio_Resume_Building/
-|   |-- Job_Applications/
-|   |-- Continuous_Learning_Followups/
-|-- Estimation_Functions/
-|-- Tips/
-```
-
-Would you like to automate the creation of this folder structure?
