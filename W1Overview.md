@@ -124,4 +124,4 @@ This document provides an exhaustive guide for the first week of a 30-day plan a
 
 ---
 
-This detailed plan should provide a comprehensive guide for your first week in mastering computer vision and open-source models. Would you like to automate the creation of these files?
+This detailed plan should provide a comprehensive guide for your first week in mastering computer vision and open-source models. 
