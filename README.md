@@ -27,7 +27,6 @@ by Rajan Selvan (& gpt4)
 |-- Tips/
 ```
 
-Would you like to automate the creation of this folder structure?
 ## Table of Contents
 
 1. [Week 1: Foundation Assessment](#week-1-foundation-assessment)
