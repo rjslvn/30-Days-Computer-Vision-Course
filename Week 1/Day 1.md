@@ -75,7 +75,3 @@ At the end of the day, take some time to reflect on the following:
 - How well do you think you performed on the pre-assessment quiz?
 - Are the week's objectives aligned with what you aim to learn?
 - Any adjustments or focus areas you need to consider for the rest of the week?
-
----
-
-This comprehensive guide for Day 1 should provide you with a clear roadmap for starting your journey in mastering computer vision and open-source models. Would you like to automate the creation of this content
