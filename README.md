@@ -1,5 +1,70 @@
 # 30-Day Plan for Learning Computer Vision
 by Rajan Selvan (& gpt4) 
+
+
+Certainly! Below is a shell script (`setup.sh`) that will create a directory structure, download the YOLOv3 configuration file, weights, and the coco names file. After running this script, your directory will have all the necessary files for running the simplified object detection script mentioned earlier.
+
+```bash
+#!/bin/bash
+
+# Set up directory structure
+mkdir -p yolo/cfg
+mkdir -p yolo/weights
+
+# Navigate to the cfg directory
+cd yolo/cfg
+
+# Download the YOLOv3 configuration file
+curl -O https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg?raw=true
+mv yolov3.cfg?raw=true yolov3.cfg
+
+# Navigate to the weights directory
+cd ../weights
+
+# Download the YOLOv3 weights
+curl -O https://pjreddie.com/media/files/yolov3.weights
+
+# Navigate back to the yolo directory
+cd ..
+
+# Download the coco names file
+curl -O https://github.com/pjreddie/darknet/blob/master/data/coco.names?raw=true
+mv coco.names?raw=true coco.names
+
+# Navigate back to the root directory
+cd ..
+
+echo "Setup complete. YOLOv3 files have been downloaded."
+```
+
+Here's how you would execute this script and subsequently run your object detection script:
+
+1. Save the above script to a file named `setup.sh`.
+2. Make the script executable by running `chmod +x setup.sh`.
+3. Execute the script by running `./setup.sh`.
+4. Once the script has completed, your directory structure should look like this:
+
+```plaintext
+.
+├── setup.sh
+├── yolo
+│   ├── cfg
+│   │   └── yolov3.cfg
+│   ├── weights
+│   │   └── yolov3.weights
+│   └── coco.names
+└── your_script.py
+```
+
+5. In your Python script (`your_script.py`), you'll need to adjust the paths to the YOLO files to match this structure:
+
+```python
+# Load YOLO
+net = cv2.dnn.readNet("yolo/weights/yolov3.weights", "yolo/cfg/yolov3.cfg")
+...
+```
+
+Now you should be ready to run your object detection script with the YOLOv3 model.
 -- 
 ```import cv2
 import numpy as np
