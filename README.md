@@ -1,8 +1,7 @@
 # 30-Day Plan for Learning Computer Vision
 by Rajan Selvan (& gpt4) 
 
-
-Certainly! Below is a shell script (`setup.sh`) that will create a directory structure, download the YOLOv3 configuration file, weights, and the coco names file. After running this script, your directory will have all the necessary files for running the simplified object detection script mentioned earlier.
+Below is a shell script (`setup.sh`) that will create a directory structure, download the YOLOv3 configuration file, weights, and the coco names file. After running this script, your directory will have all the necessary files for running the simplified object detection script mentioned earlier.
 
 ```bash
 #!/bin/bash
